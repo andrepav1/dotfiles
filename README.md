@@ -7,7 +7,7 @@ Minimal WSL (Ubuntu) dev environment: zsh + oh-my-zsh, git, tmux (catppuccin), n
 In a fresh WSL Ubuntu terminal:
 
 ```sh
-# 1. Get access to this private repo (Ubuntu's gh is old, but fine for bootstrapping)
+# 1. Clone and log in to GitHub (Ubuntu's gh is old, but fine for bootstrapping)
 sudo apt-get update && sudo apt-get install -y git gh
 gh auth login            # GitHub.com -> HTTPS -> yes to git credentials -> browser
 gh repo clone andrepav1/dotfiles ~/dotfiles
