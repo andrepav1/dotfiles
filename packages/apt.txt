@@ -1,0 +1,9 @@
+# One package per line. Installed by install.sh with apt-get.
+# gh is installed separately from GitHub's apt repo (Ubuntu's is outdated).
+zsh
+tmux
+git
+curl
+unzip
+build-essential
+python3-pip

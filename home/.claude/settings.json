@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "model": "opus",
+  "feedbackDrafts": "notify",
+  "effortLevel": "high",
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "medium",
+      "autoCompactWindow": 1000000
+    }
+  },
+  "tui": "fullscreen",
+  "timeFormat": "auto",
+  "autoMemoryEnabled": true,
+  "theme": "dark",
+  "verbose": false,
+  "autoCompactEnabled": false,
+  "idleCompaction": true,
+  "switchModelsOnFlag": true,
+  "autoContinueAtUsageLimit": false
+}
